@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,111 +16,132 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
-    
-<!-- header section starts  -->
 
-<header>
+    <!-- header section starts  -->
 
-    <div id="menu-bar" class="fas fa-bars"></div>
+    <header>
 
-    <a href="#" class="logo"><span>T</span>ravel</a>
+        <div id="menu-bar" class="fas fa-bars"></div>
 
-    <nav class="navbar">
-        <a href="#home"><i class="fas fa-home"></i> home</a>
-        <a href="#book">book</a>
-        <a href="#packages">packages</a>
-        <a href="#services">services</a>
-        <a href="#gallery">gallery</a>
-        <a href="#review">review</a>
-        <a href="#contact">contact</a>
-    </nav>
+        <a href="#" class="logo"><span>T</span>ravel</a>
 
-    <div class="icons">
-        <i class="fas fa-search" id="search-btn"></i>
-        <i class="fas fa-user" id="login-btn"></i>
-    </div>
+        <nav class="navbar">
+            <a href="#home"><i class="fas fa-home"></i> home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
 
-    <form action="" class="search-bar-container">
-        <input type="search" id="search-bar" placeholder="search here...">
-        <label for="search-bar" class="fas fa-search"></label>
-    </form>
-
-</header>
-
-<!-- header section ends -->
-
-<!-- home section starts  -->
-
-<section class="home" id="home">
-
-    <div class="content">
-        <h3>adventure is worthwhile</h3>
-        <p>dicover new places with us, adventure awaits</p>
-        <a href="#" class="btn">discover more</a>
-    </div>
-
-    <div class="controls">
-        <span class="vid-btn active" data-src="images/Video1.mp4"></span>
-        <span class="vid-btn" data-src="images/Video2.mp4"></span>
-        <span class="vid-btn" data-src="images/Video3.mp4"></span>
-        <span class="vid-btn" data-src="images/Video4.mp4"></span>
-        <span class="vid-btn" data-src="images/Video5.mp4"></span>
-    </div>
-
-    <div class="video-container">
-        <video src="images/Video1.mp4" id="video-slider" loop autoplay muted></video>
-    </div>
-
-</section>
-
-<!-- home section ends -->
-
-<!-- footer section  -->
-
-<section class="footer">
-
-    <div class="box-container">
-
-        <div class="box">
-            <h3>about us</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est accusantium voluptas enim nemo facilis sit debitis.</p>
-        </div>
-        <div class="box">
-            <h3>branch locations</h3>
-            <a href="#">Korea</a>
-            <a href="#">USA</a>
-            <a href="#">Japan</a>
-            <a href="#">France</a>
-        </div>
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#">home</a>
-            <a href="#">book</a>
-            <a href="#">packages</a>
-            <a href="#">services</a>
-            <a href="#">gallery</a>
-            <a href="#">review</a>
-            <a href="#">contact</a>
-        </div>
-        <div class="box">
-            <h3>follow us</h3>
-            <a href="#"><i class="fab fa-facebook-square"></i>  facebook</a>
-            <a href="#"><i class="fab fa-instagram-square"></i>  instagram</a>
-            <a href="#"><i class="fab fa-twitter-square"></i>   twitter</a>
-            <a href="#"><i class="fab fa-linkedin"></i>   linkedin</a>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
         </div>
 
-    </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
 
-    <h1 class="credit"> created by <span> TrieuNgan21</span> | all rights reserved! </h1>
+    </header>
 
-</section>
+    <!-- header section ends -->
 
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- home section starts  -->
 
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>dicover new places with us, adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="video-container">
+
+            <div class="mySlides fade">
+                <video src="images/Video1.mp4" loop autoplay muted></video>
+            </div>
+
+            <div class="mySlides fade">
+                <video src="images/Video2.mp4 " loop autoplay muted></video>
+            </div>
+
+            <div class="mySlides fade">
+                <video src="images/Video3.mp4" loop autoplay muted></video>
+            </div>
+
+            <div class="mySlides fade">
+                <video src="images/Video4.mp4" loop autoplay muted></video>
+            </div>
+
+            <div class="mySlides fade">
+                <video src="images/Video5.mp4" loop autoplay muted></video>
+            </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- footer section  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est
+                    accusantium voluptas enim nemo facilis sit debitis.</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">Korea</a>
+                <a href="#">USA</a>
+                <a href="#">Japan</a>
+                <a href="#">France</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"><i class="fab fa-facebook-square"></i> facebook</a>
+                <a href="#"><i class="fab fa-instagram-square"></i> instagram</a>
+                <a href="#"><i class="fab fa-twitter-square"></i> twitter</a>
+                <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> created by <span> TrieuNgan21</span> | all rights reserved! </h1>
+
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
