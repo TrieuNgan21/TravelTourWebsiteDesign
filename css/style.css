@@ -63,6 +63,7 @@ section{
   color:var(--orange);
 }
 
+/* css header */
 header{
   position: fixed;
   top:0; left: 0; right:0;
@@ -152,6 +153,7 @@ header .search-bar-container label:hover{
   display: none;
 }
 
+/* css home */
 .home{
   min-height: 100vh;
   display: flex;
@@ -204,6 +206,114 @@ header .search-bar-container label:hover{
   background-color: #ffc400;
 }
 
+/* css login */
+.login-form-container{
+  position: absolute;
+  top:-120%; 
+  left: 50%;
+  z-index: 10000;
+  transform: translate(-50%, 35%);
+  width: 320px;
+  height: 400px;
+  background:linear-gradient(100deg, #f7ae41, #f56262);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  /* opacity: 0.8; */
+}
+
+.login-form-container.active{
+  top:0;
+}
+
+.login-form-container h1 {
+  color: white;
+  font-family: Tahoma;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 5px 10px 10px 10px;
+  border-bottom: 1px solid rgb(173, 115, 6);
+}
+
+.login-form-container form{
+  padding: 10px 40px;
+  box-sizing: border-box;
+}
+
+.login-form-container form label{
+  font-size: 1.5rem;
+}
+
+.login-form-container input[type="text"], .login-form-container input[type ="password"]{
+  border: 0;
+  display: block;
+  margin: 10px 20px 30px 10px;
+  text-align: center;
+  border: 2px solid #f15c48;
+  border-radius: 25px;
+  padding: 7px 10px;
+  height: 30px;
+  width: 225px;
+  outline: none;
+  color: black;
+  transition: .5s;
+}
+
+.login-form-container input[type="text"]:focus, .login-form-container input[type ="password"]:focus{
+  width: 240px;
+  border-color: rgb(29, 236, 22);
+}
+
+.login-form-container input[type="submit"]{
+  border: 0;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  background-color:#f3951a;
+  border: 2px solid #e73326;
+  border-radius: 30px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  height: 35px;
+  width: 30%;
+  outline: none;
+  color: black;
+  font-family: Verdana;
+  font-size: 16px;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.login-form-container input[type="submit"]:hover{
+  background-color: #23f31c;
+}
+
+
+p.login-form-container form p{
+  padding:.5rem 0;
+  font-size: 1.5rem;
+  color:#666;
+}
+
+.login-form-container form p a{
+  color:rgb(241, 9, 9);
+}
+
+.login-form-container form p a:hover{
+  color:rgb(26, 245, 37);
+  text-decoration: underline;
+}
+
+.login-form-container #form-close{
+  position:absolute;
+  top:1rem; right:2rem;
+  font-size: 2rem;
+  color:#fff;
+  cursor: pointer;
+}
+
+/* css footer */
 .footer{
   background: #333;
 }
