@@ -355,6 +355,65 @@ p.login-form-container form p{
   color:#666;
 }
 
+/*css packages*/
+.box {
+  float:left;
+  width: 30%;
+  padding: 10px;
+  flex:content;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.packages .row .box img{
+  height: 30rem;
+  width:100%;
+  object-fit: cover;
+}
+
+.packages .row .box .content .stars i{
+  font-size:1.7rem;
+  color:var(--orange);
+}
+
+.packages .row .box .content .price{
+  font-size: 2rem;
+  color:#333;
+  padding-top: 1rem;
+}
+
+.packages .row .box .content .price span{
+  color:#666;
+  font-size: 1.5rem;
+  text-decoration: line-through;
+}
+
+.packages {
+  width: 110%;
+}
+
+.packages .heading {
+  width: 90%;
+}
+
+.packages .row .box .content h3{
+  font-size:2rem;
+  color:#333;
+}
+
+.packages .row .box .content h3 i{
+  color:var(--orange);
+}
+
+.packages .row .box .content p{
+  font-size:1.7rem;
+  color:#666;
+  padding:1rem 0;
+}
 
 /* css footer */
 .footer{
