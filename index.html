@@ -301,73 +301,269 @@
             <span>s</span>
         </h1>
 
-        <!-- <div class="row">
-            
-            <div class="box">
-                <i class="fas fa-taxi"></i>
-                <h3>transportation </h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
-                <button class="btn active" onclick="filterSelection('transportation')"> Transportation</button>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-hotel"></i>
-                <h3>Accommodation </h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
-            </div>
-
-        </div>
-
-        <div class="row">
-
-            <div class="box">
-                <i class="fas fa-utensils"></i>
-                <h3>food and beverage </h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-umbrella-beach"></i>
-                <h3>recreation and entertainment </h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
-            </div>
-
-        </div> -->
-
         <div id="myBtnContainer">
-            <button class="btn active" onclick="filterSelection('accommodation')"> Accommodation</button>
-            <button class="btn" onclick="filterSelection('transportation')"> Transportation</button>
-            <button class="btn" onclick="filterSelection('food')"> Food and beverage</button>
-            <button class="btn" onclick="filterSelection('recreation')"> Recreation and entertainment</button>
-            <button class="btn" onclick="filterSelection('others')"> Others</button>
+            <button class="btn_services active" onclick="filterSelection('accommodation')"> Accommodation</button>
+            <button class="btn_services" onclick="filterSelection('transportation')"> Transportation</button>
+            <button class="btn_services" onclick="filterSelection('food')"> Food and beverage</button>
+            <button class="btn_services" onclick="filterSelection('recreation')"> Recreation and entertainment</button>
+            <button class="btn_services" onclick="filterSelection('others')"> Others</button>
         </div>
 
-        <div class="container">
-            <div class="filterDiv transportation"><img src="images/Taxi.jpg" alt=""></div>
-            <div class="filterDiv transportation"><img src="images/Car.jpg" alt=""  ></div>
-            <div class="filterDiv transportation"><img src="images/Motobike.jpg" alt="" ></div>
-            <div class="filterDiv accommodation"><img src="images/luxury.jpg" alt="" ></div>
-            <div class="filterDiv accommodation"><img src="images/room.jpg" alt="" ></div>
-            <div class="filterDiv accommodation"><img src="images/homestay.jpg" alt="" ></div>
-            <div class="filterDiv accommodation"><img src="images/Hotel.jpg" alt="" ></div>
-            <div class="filterDiv accommodation"><img src="images/homestay2.jpg" alt="" ></div>
-            <div class="filterDiv accommodation"><img src="images/motel.jpg" alt="" ></div>
-            <div class="filterDiv food"><img src="images/food1.jpg" alt="" ></div>
-            <div class="filterDiv food"><img src="images/food2.jpg" alt="" ></div>
-            <div class="filterDiv food"><img src="images/food3.jpg" alt="" ></div>
-            <div class="filterDiv food"><img src="images/food4.jpg" alt="" ></div>
-            <div class="filterDiv food"><img src="images/food5.jpg" alt="" ></div>
-            <div class="filterDiv food"><img src="images/food6.jpg" alt="" ></div>
-            <div class="filterDiv recreation"><img src="images/enterainment1.jpg" alt="" ></div>
-            <div class="filterDiv recreation"><img src="images/enterainmen2.png" alt="" ></div>
-            <div class="filterDiv recreation"><img src="images/enterainmen3.jpg" alt="" ></div>
-            <div class="filterDiv recreation"><img src="images/enterainment4.webp" alt="" ></div>
-            <div class="filterDiv recreation"><img src="images/enterainmen5.jpg" alt="" ></div>
-            <div class="filterDiv others"><img src="images/tourguide1.jpg" alt="" ></div>
-            <div class="filterDiv others"><img src="images/tourguide2.jpg" alt="" ></div>
+        <div class="row-services">
+            <div class="column-services transportation">
+                <div class="content-services">
+                    <img src="images/Taxi.jpg" alt="">
+                    <h4>Taxi 24/24</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column-services transportation">
+                <div class="content-services">
+                    <img src="images/Car.jpg" alt="">
+                    <h4>Cars</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column-services transportation">
+                <div class="content-services">
+                    <img src="images/Motobike.jpg" alt="">
+                    <h4>Motobikes</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services accommodation">
+                <div class="content-services">
+                    <img src="images/luxury.jpg" alt="">
+                    <h4>Luxury Hotel</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column-services accommodation">
+                <div class="content-services">
+                    <img src="images/room.jpg" alt="">
+                    <h4>Hotel</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column-services accommodation">
+                <div class="content-services">
+                    <img src="images/homestay.jpg" alt="">
+                    <h4>Luxury Homestay</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services accommodation">
+                <div class="content-services">
+                    <img src="images/homestay2.jpg" alt="">
+                    <h4>Homestay</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services accommodation">
+                <div class="content-services">
+                    <img src="images/motel.jpg" alt="">
+                    <h4>Motel</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services food">
+                <div class="content-services">
+                    <img src="images/food1.jpg" alt="">
+                    <h4>Food</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services food">
+                <div class="content-services">
+                    <img src="images/food2.jpg" alt="">
+                    <h4>Food</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services food">
+                <div class="content-services">
+                    <img src="images/food3.jpg" alt="">
+                    <h4>Food</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services food">
+                <div class="content-services">
+                    <img src="images/food4.jpg" alt="">
+                    <h4>Food</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services food">
+                <div class="content-services">
+                    <img src="images/food5.jpg" alt="">
+                    <h4>Food</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services food">
+                <div class="content-services">
+                    <img src="images/food6.jpg" alt="">
+                    <h4>Food</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services recreation">
+                <div class="content-services">
+                    <img src="images/enterainment1.jpg" alt="">
+                    <h4>Entertainment</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services recreation">
+                <div class="content-services">
+                    <img src="images/enterainmen2.png" alt="">
+                    <h4>Entertainment</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services recreation">
+                <div class="content-services">
+                    <img src="images/enterainmen3.jpg" alt="">
+                    <h4>Entertainment</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services recreation">
+                <div class="content-services">
+                    <img src="images/enterainment4.webp" alt="">
+                    <h4>Entertainment</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services recreation">
+                <div class="content-services">
+                    <img src="images/enterainmen5.jpg" alt="">
+                    <h4>Entertainment</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services others">
+                <div class="content-services">
+                    <img src="images/tourguide1.jpg" alt="">
+                    <h4>Tour Guide</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column-services others">
+                <div class="content-services">
+                    <img src="images/tourguide2.jpg" alt="">
+                    <h4>Assistance</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
         </div>
-    </section>    
+    </section>
     <!-- services section ends -->
+
+    <!-- gallery section starts -->
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>G</span>
+            <span>A</span>
+            <span>L</span>
+            <span>L</span>
+            <span>E</span>
+            <span>R</span>
+            <span>Y</span>
+        </h1>
+
+        <!-- Container for the image gallery -->
+        <div class="container-gallery">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides-gallery">
+                <div class="numbertext">1 / 6</div>
+                <img src="images/g-1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides-gallery">
+                <div class="numbertext">2 / 6</div>
+                <img src="images/g-2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides-gallery">
+                <div class="numbertext">3 / 6</div>
+                <img src="images/g-7.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides-gallery">
+                <div class="numbertext">4 / 6</div>
+                <img src="images/g-4.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides-gallery">
+                <div class="numbertext">5 / 6</div>
+                <img src="images/g-5.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides-gallery">
+                <div class="numbertext">6 / 6</div>
+                <img src="images/g-8.jpg" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail images -->
+            <div class="row-gallery">
+                <div class="column-gallery">
+                    <img class="demo cursor" src="images/g-1.jpg" style="width:100%" onclick="currentSlide(1)"
+                        alt="Wonderful Photos">
+                </div>
+                <div class="column-gallery">
+                    <img class="demo cursor" src="images/g-2.jpg" style="width:100%" onclick="currentSlide(2)"
+                        alt="Cave Tours">
+                </div>
+                <div class="column-gallery">
+                    <img class="demo cursor" src="images/g-7.jpg" style="width:100%" onclick="currentSlide(3)"
+                        alt="Hot-air balloons">
+                </div>
+                <div class="column-gallery">
+                    <img class="demo cursor" src="images/g-4.jpg" style="width:100%" onclick="currentSlide(4)"
+                        alt="Visit monuments">
+                </div>
+                <div class="column-gallery">
+                    <img class="demo cursor" src="images/g-5.jpg" style="width:100%" onclick="currentSlide(5)"
+                        alt="Museums">
+                </div>
+                <div class="column-gallery">
+                    <img class="demo cursor" src="images/g-8.jpg" style="width:100%" onclick="currentSlide(6)"
+                        alt="Camping">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery section ends -->
 
     <!-- footer section  -->
 
