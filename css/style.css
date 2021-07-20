@@ -498,8 +498,8 @@ p.login-form-container form p{
 }
 
 /* Next & previous buttons */
-.prev,
-.next {
+.prev_photo,
+.next_photo {
   cursor: pointer;
   position: absolute;
   top: 40%;
@@ -515,14 +515,14 @@ p.login-form-container form p{
 }
 
 /* Position the "next button" to the right */
-.next {
+.next_photo {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
+.prev_photo:hover,
+.next_photo:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
